@@ -41,6 +41,7 @@ GEM
     best_in_place (3.0.3)
       actionpack (>= 3.2)
       railties (>= 3.2)
+    bigdecimal (1.4.2)
     binding_of_caller (1.0.0)
       debug_inspector (>= 0.0.1)
     builder (3.2.4)
@@ -252,6 +253,7 @@ PLATFORMS
 
 DEPENDENCIES
   best_in_place (~> 3.0.1)
+  bigdecimal (= 1.4.2)
   byebug
   coffee-rails (~> 4.1.0)
   cucumber-rails
