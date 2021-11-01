@@ -1,12 +1,13 @@
 class GuestMailer < ApplicationMailer
-    
-    def rsvp_invitation_email(event, guest)
+    default from: 'notifications@example.com'
+    # def rsvp_invitation_email(event, guest)
+    def rsvp_invitation_email(guest)
         # puts @guest.email_address.to_s
         flash[:notice] = "hi hello what's up"
-        @event = event
+        # @event = event
         @guest = guest
         @url = 'http://www.gmail.com'
-        mail(to: "hwangdi66@gmail.com", subject: "- Invitation")
+        mail(to: @guest.email, subject: "- Invitation")
     end
     
     def rsvp_confirmation_email(event, guest)
