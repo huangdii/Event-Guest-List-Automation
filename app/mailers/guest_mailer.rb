@@ -13,7 +13,7 @@ class GuestMailer < ApplicationMailer
         request["x-trustifi-key"] = ENV['TRUSTIFI_KEY']
         request["x-trustifi-secret"] = ENV['TRUSTIFI_SECRET']
         request["content-type"] = "application/json"
-        request.body = "{\"recipients\": [{\"email\": \"hwangdi66@gmail.com\"}],\"title\":\"Title\",\"html\":\"Body\"}"
+        request.body = "{\"recipients\": [{\"email\": \"hwangdi66@gmail.com\"}],\"title\":\"Title\",\"html\":\"Hello guys. I'm success.\"}"
     
         response = https.request(request)
         puts response.read_body
