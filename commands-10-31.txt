@@ -1,0 +1,213 @@
+    1  sudo apt update
+    2  sudo apt install -y ruby
+    3  sudo sudo apt install -y ruby
+    4  apt install -y ruby
+    5  sudo apt install -y ruby
+    6  sudo apt-get install ruby-full
+    7  sudo dpkg --configure -a
+    8  sudo apt update
+    9  sudo apt install -y ruby
+   10  sudo apt install -y gem
+   11  gem install aws-sdk
+   12  https://github.com/huangdii/Event-Guest-List-Automation
+   13  git clone https://github.com/huangdii/Event-Guest-List-Automation
+   14  cd Event-Guest-List-Automation/
+   15  bundle install --without production
+   16  bundle install --without production
+   17  sudo apt get install postgresql-libs
+   18  sudo apt install postgresql-libs
+   19  yum install postgresql-libs
+   20  sudo apt install postgresql-libs
+   21  cd ..
+   22  sudo apt install postgresql-libs
+   23  sudo apt-get install postgresql-libs
+   24  sudo apt-get install postgresql
+   25  apt-get install postgresql-10
+   26  sudo apt-get install postgresql-10
+   27  gem install pg
+   28  sudo apt-get install postgresql
+   29  sudo apt-get remove postgresql
+   30  sudo apt-get install postgresql-10
+   31  gem install pg
+   32  sudo apt-get install postgresql-12
+   33  sudo apt-get install postgresql-11
+   34  sudo apt-get install postgresql-10
+   35  sudo apt get update
+   36  sudo apt update
+   37  gem install pg
+   38  sudo apt-get -y install postgresql
+   39  sudo systemctl status postgresql.service
+   40  gem install pg
+   41  cd Event-Guest-List-Automation/
+   42  bundle install
+   43  sudo apt-get install libpq-dev
+   44  gem install pg
+   45  bundle install
+   46  rake db:migrate
+   47  rake db:seed
+   48  git add .
+   49  git commit -m "edit gemfile
+   50  "
+   51  git config --global user.name "huangdii"
+   52  git push origin master
+   53  git push 
+   54  git push
+   55  git checkout master
+   56  git checkout main
+   57  heroku login -i
+   58  sudo snap install heroku
+   59  curl https://cli-assets.heroku.com/install.sh | sh
+   60  heroku create
+   61  ssh-keygen -t rsa
+   62  heroku login
+   63  heroku login -i
+   64  heroku keys:add
+   65  heroku create
+   66  git push heroku main
+   67  git add Gemfile
+   68  git add Gemfile.lock 
+   69  git commit -m "."
+   70  rm fashionNXT.txt
+   71  rm fashionNXT.txt.pub 
+   72  git push 
+   73  git push heroku main
+   74  git checkout master 
+   75  git add .
+   76  git commit -m "."
+   77  git push heroku master
+   78  git add Gemfile.lock 
+   79  git commit -m "."
+   80  git push heroku master 
+   81  cd ..
+   82  heroku buildpacks:set https://github.com/heroku/heroku-buildpack-nodejs
+   83  cd Event-Guest-List-Automation/
+   84  bundle install
+   85  git add .
+   86  git commit -m "."
+   87  git push heroku master 
+   88  git push heroku master:main
+   89  cd Event-Guest-List-Automation/
+   90  rails s -p $PORT -b $IP
+   91  rake db:migrate
+   92  rake db:seed
+   93  bundle install --without production
+   94  git push heroku master 
+   95  git push heroku master 
+   96  rails s -p $PORT -b $IP
+   97  rails s -p $PORT -b $IP
+   98  cd
+   99  cd environment/Event-Guest-List-Automation/
+  100  cd ..
+  101  mkdir leon
+  102  cd Event-Guest-List-Automation/
+  103  mv -rf Event-Guest-List-Automation/ ../leon/
+  104  mv -f Event-Guest-List-Automation/ ../leon/
+  105  cd ../
+  106  cd leon/
+  107  cd Event-Guest-List-Automation/
+  108  bundle install --without production
+  109  git add .
+  110  git commit -m "."
+  111  git push heroku master
+  112  heroku create
+  113  git push heroku master
+  114  cd ..
+  115  cd ..
+  116  sudo postgresql-setup initdb
+  117  sudo yum install postgresql-server postgresql-contrib
+  118  sudo apt install postgresql-server postgresql-contrib
+  119  sudo apt get install postgresql-server postgresql-contrib
+  120  sudo apt-get install postgresql-server postgresql-contrib
+  121  sudo apt install postgresql-server-dev-all
+  122  sudo postgresql-setup initdb
+  123  sudo /usr/lib/postgresql/10/bin/initdb /usr/local/bin/
+  124  sudo ln -s /usr/lib/postgresql/10/bin/initdb /usr/local/bin/
+  125  sudo systemctl start postgresql
+  126  netstat -an | grep 5432
+  127  sudo -u postgres createdb myapp_development
+  128  sudo -u postgres createuser -s ec2-user
+  129  sudo -u postgres createdb ec2-user
+  130  rake db:migrate
+  131  cd Event-Guest-List-Automation/
+  132  rake db:migrate
+  133  rails s -p $PORT -b $IP
+  134  rails s -p $PORT -b $IP
+  135  rails s -p $PORT -b $IP
+  136  sudo apt-get install libsqlite3-dev
+  137  sudo gem install sqlite3-ruby
+  138  gem list
+  139  bundle install
+  140  bundle install
+  141  rake db:migrate
+  142  rake db:seed
+  143  rails s -p $PORT -b $IP
+  144  bundle install
+  145  rails s -p $PORT -b $IP
+  146  rake db:migrate
+  147  rake db:seed
+  148  rails s -p $PORT -b $IP
+  149  rails s -p $PORT -b $IP
+  150  git add .
+  151  git add Gemfile
+  152  git add Gemfile.lock 
+  153  git push heroku master
+  154  git commit -m "."
+  155  git push heroku master 
+  156  bundle install
+  157  git push heroku master 
+  158  git add .
+  159  git commit -m "."
+  160  git push heroku master 
+  161  git add .
+  162  git commit -m "."
+  163  git push heroku master 
+  164  git add .
+  165  git commit -m "."
+  166  git push heroku master 
+  167  git add .
+  168  git commit -m "."
+  169  git push heroku master 
+  170  git add .
+  171  git commit -m "."
+  172  git push heroku master 
+  173  git add .
+  174  git commit -m "."
+  175  git add .
+  176  git commit -m "."
+  177  git push heroku master 
+  178  git add .
+  179  git commit -m "."
+  180  git push heroku master 
+  181  git add .
+  182  git commit -m "."
+  183  git push heroku master 
+  184  cd app/mailers/
+  185  cp guest_mailer.rb guest_mailer.rb.bak
+  186  cd ../../
+  187  git add .
+  188  git commit -m "."
+  189  git push heroku master 
+  190  git add .
+  191  git commit -m "."
+  192  git push heroku master 
+  193  git add .
+  194  git commit -m "."
+  195  git push heroku master 
+  196  git add .
+  197  git commit -m "."
+  198  git push heroku master 
+  199  git add .
+  200  git commit -m "."
+  201  git push heroku master 
+  202  script/plugin install git://github.com/adamwiggins/gmail_smtp.git
+  203  cd ..
+  204  script/plugin install git://github.com/adamwiggins/gmail_smtp.git
+  205  cd Event-Guest-List-Automation/
+  206  heroku config:get TRUSTIFI_KEY --app boiling-wildwood-63155 -s  >> .env
+  207  heroku config:get TRUSTIFI_SECRET --app boiling-wildwood-63155 -s  >> .env
+  208  heroku config:get TRUSTIFI_URL --app boiling-wildwood-63155 -s  >> .env
+  209  echo .env >> .gitignore
+  210  git add .
+  211  git commit -m "heroku adds on"
+  212  git push heroku master
+  213  history >> commands-10-31.txt
