@@ -6,7 +6,7 @@ class GuestMailer < ApplicationMailer
         @event = event
         @guest = guest
         @url = 'http://www.gmail.com'
-        mail(to: @guest.email_address, subject: "- Invitation")
+        mail(to: "hwangdi66@gmail.com", subject: "- Invitation")
     end
     
     def rsvp_confirmation_email(event, guest)
