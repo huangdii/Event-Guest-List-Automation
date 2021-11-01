@@ -13,7 +13,7 @@
     <p><b>Ticket Number: <%= @guest.total_booked_num %></b></p>
     <p><b>Seat Category: <%= @guest.seat_category %></b></p>
     <p>
-      Please RSVP to confirm attendence with this link: <%= link_to 'RSVP', edit_event_guest_url(@event, @guest, :protocol => 'https') %>.
+      Please RSVP to confirm attendence with this link: <%= link_to 'RSVP', edit_event_guest_url(@event, @guest, :protocol => 'http') %>.
     </p>
     <p>Thank you and have a great day!</p>
   </body>
