@@ -12,7 +12,11 @@ class GuestsController < ApplicationController
       redirect_to event_path(event) and return
     end
     # puts(request.host_with_port)
+<<<<<<< HEAD
     GuestMailer.rsvp_invitation_email(guest).deliver_now
+=======
+    GuestMailer.rsvp_invitation_email(event, guest).deliver_now
+>>>>>>> acc3e055e444e495ecfd97e1af7ef501fb8775d5
     guest.update({:booking_status => 'Invited', :total_booked_num => 0})
     flash[:notice] = "The email was successfully sent to #{guest.first_name} #{guest.last_name}."
     redirect_to event_path(event)
@@ -70,7 +74,7 @@ class GuestsController < ApplicationController
     
     if guest.update(guest_params)
       if guest.total_booked_num > 0
-				GuestMailer.rsvp_confirmation_email(event, guest).deliver
+				GuestMailer.rsvp_confirmation_email(event, guest).deliver_now
 			end
       render :template => "guests/success_confirmation"
     else
