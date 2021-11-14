@@ -22,7 +22,6 @@ gem 'jquery-rails'
 gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.0'
-gem 'bigdecimal', '1.4.2'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
 
@@ -36,8 +35,11 @@ group :test do
   gem 'simplecov', :require => false
 end
 # Use ActiveModel has_secure_password
-# gem 'bcrypt', '~> 3.1.7'
-
+gem 'bcrypt', '~> 3.1.7'   # edited by jiyoon
+gem 'omniauth'
+gem 'omniauth-rails_csrf_protection'
+gem 'omniauth-google-oauth2'
+gem 'pry'
 # Use Unicorn as the app server
 # gem 'unicorn'
 
@@ -49,14 +51,8 @@ group :development, :test do
   gem 'byebug'
   gem 'rspec-rails', '3.7.2'
   gem 'database_cleaner', '1.4.1'
-<<<<<<< HEAD
-  gem 'pg', '~> 0.21'
   gem 'sqlite3', '~> 1.3.6'
-
-
-=======
-  gem 'sqlite3', '~> 1.3.13'
->>>>>>> acc3e055e444e495ecfd97e1af7ef501fb8775d5
+  gem 'dotenv-rails'  # edtied by jiyoon
 end
 
 group :development do

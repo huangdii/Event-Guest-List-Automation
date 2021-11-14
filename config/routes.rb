@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :users
+  # devise_for :users, controllers: { omniauth_callbacks: 'users/omniauth_callbacks' }
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
   # You can have the root of your site routed with "root"
@@ -6,7 +8,11 @@ Rails.application.routes.draw do
   resources :events do
     resources :guests
   end
-
+  
+  # google authorization
+  # get '/auth/google_oauth2/callback', to: 'sessions#omniauth'
+  get '/auth/:provider/callback', to: 'sessions#omniauth'
+  
   post '/import_new_spreadsheet' => 'events#import_new_spreadsheet'
   post '/open_existed_spreadsheet'  => 'events#open_existed_spreadsheet'
   post '/seat_categories'  => 'events#seat_categories'

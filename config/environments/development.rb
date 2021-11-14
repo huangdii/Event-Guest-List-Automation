@@ -18,7 +18,8 @@ Rails.application.configure do
   # config.action_mailer.raise_delivery_errors = false
   config.action_mailer.perform_deliveries = true
   config.action_mailer.raise_delivery_errors = true
-  ActionMailer::Base.default_content_type = "text/html"
+  # ActionMailer::Base.default_content_type = "text/html"
+  ActionMailer::Base.default :content_type => "text/html"  # edited by jiyoon
   #####################
   
   # Print deprecation notices to the Rails logger.
